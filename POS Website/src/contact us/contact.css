@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.nav-head {
+    background-color: #1f2937;
+    padding: 10px 0;
+}
+
+.navbar {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 26px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ffba08;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.search-input {
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 0;
+    outline: none;
+    width: 200px;
+}
+
+.search-btn {
+    background-color: #ffba08;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #e0a806;
+}
+
+.search-btn i {
+    font-size: 18px;
+}
+
+.nav-icons .user-icon {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #ffba08;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin-left: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-icons .user-icon:hover {
+    background-color: #e0a806;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-container {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .logo {
+        margin-bottom: 15px;
+    }
+}
+.container {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+header a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.introduction {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.introduction h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.contact-block {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+}
+
+.contact-block h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+.contact-block p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.contact-block a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-block a:hover {
+    text-decoration: underline;
+}
+
+.contact-form-info {
+    text-align: center;
+}
+
+.contact-form-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.contact-form-info p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.contact-form-info a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact-form-info a:hover {
+    text-decoration: underline;
+}

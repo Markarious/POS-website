@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header class="nav-head">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="/src/index page/index.html">IT.NET</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/src/index page/index.html">Home</a></li>
+                <li><a href="/src/products page/products.html">Products</a></li>
+                <li><a href="/src/contact us/contact.html">Support</a></li>
+                <li><a href="">Brands</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" placeholder="Search..." class="search-input">
+                <button type="submit" class="search-btn">search</button>
+            </div>
+            <div class="nav-icons">
+                <a href="/src/Login wesite/login.html" class="user-icon">Login</a>
+            </div>
+        </nav>
+    </header>
+    <div class="login-container">
+        <h2>LOGIN</h2>
+        <form action="/login" method="POST">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Login">
+        </form>
+        <div class="links">
+           <label>Forgot password?</label><a href="/src/forgot password page/forgot.html"> Reset it here</a>
+        </div>
+        <div class="create-account">
+           <label>Don't have an account?</label> <a href="/src/create-account/create-account.html"> Create an account</a>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

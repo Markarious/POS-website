@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.nav-head {
+    background-color: #1f2937;
+    padding: 10px 0;
+}
+
+.navbar {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 26px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ffba08;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.search-input {
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 0;
+    outline: none;
+    width: 200px;
+}
+
+.search-btn {
+    background-color: #ffba08;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #e0a806;
+}
+
+.search-btn i {
+    font-size: 18px;
+}
+
+.nav-icons .user-icon {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #ffba08;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin-left: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-icons .user-icon:hover {
+    background-color: #e0a806;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-container {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .logo {
+        margin-bottom: 15px;
+    }
+}
+/* About Section */
+.about-section {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.about-section h2 {
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #1f2937;
+}
+
+.about-section ul {
+    list-style-type: disc;
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+.about-section ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #1f2937;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #444;
+}
+
+.footer-section {
+    flex: 1 1 20%;
+    padding: 20px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.8;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-section {
+        padding: 20px 10px;
+    }
+}

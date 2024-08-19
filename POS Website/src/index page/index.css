@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.nav-head {
+    background-color: #1f2937;
+    padding: 10px 0;
+}
+
+.navbar {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 26px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ffba08;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.search-input {
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 0;
+    outline: none;
+    width: 200px;
+}
+
+.search-btn {
+    background-color: #ffba08;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #e0a806;
+}
+
+.search-btn i {
+    font-size: 18px;
+}
+
+.nav-icons .user-icon {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #ffba08;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin-left: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-icons .user-icon:hover {
+    background-color: #e0a806;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-container {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .logo {
+        margin-bottom: 15px;
+    }
+}
+.overview {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.overview h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.overview p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+}
+
+.products-section {
+    display: flex;
+    justify-content:left;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    height: 350px;
+    margin: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.product1 {
+    background-image: url(/public/project-images//high-performance-laptops.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        width: 100%;
+        height: 350px;
+        margin: 2px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        
+}
+.product2{
+    background-image: url(/public/project-images/image2.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        width: 100%;
+        height: 350px;
+        margin: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.product3{
+    background-image: url(/public/project-images/image3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        width: 100%;
+        height: 350px;
+        margin: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.product h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 15px 0 10px 0;
+}
+
+.product p {
+    font-size: 1em;
+    color: #666;
+}
+
+.product .price {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
